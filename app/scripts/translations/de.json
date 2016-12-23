@@ -1,0 +1,17 @@
+{
+  "TITLE": "Titel",
+  "FIRST_NAME": "Voornaam",
+  "LAST_NAME": "Achternaam",
+  "EMAIL_ADDRESS": "E-mailadres",
+  "PHONE_NUMBER": "Telefoonnummer",
+  "GENDER": "Geslacht",
+  "DEVICE_ID": "Apparaat-ID",
+  "PICTURE": "Foto",
+  "NAME": "Naam",
+  "ADDRESS_LINE_1": "Adresregel 1",
+  "ADDRESS_LINE_2": "Adresregel 2",
+  "CITY": "Stad",
+  "STATE": "Provincie",
+  "POST_CODE": "Postcode",
+  "ZIP CODE": "Postcode"
+}

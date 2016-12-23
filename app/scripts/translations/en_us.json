@@ -1,0 +1,17 @@
+{
+"TITLE": "Title",
+"FIRST_NAME": "First Name",
+"LAST_NAME": "Last Name",
+"EMAIL_ADDRESS": "Email Address",
+"PHONE_NUMBER": "Phone Number",
+"GENDER": "Gender",
+"DEVICE_ID": "Device ID",
+"PICTURE": "Picture",
+"NAME": "Name",
+"ADDRESS_LINE_1": "Address Line 1",
+"ADDRESS_LINE_2": "Address Line 2",
+"CITY": "City",
+"STATE": "State",
+"POST_CODE": "Post Code",
+"ZIP_CODE": "Zip Code"
+}
