@@ -24,11 +24,8 @@ app.controller('MainCtrl', function ($scope, $translate, $http) {
   };
 
   activeLanguge = $translate.use() || $translate.preferredLanguage();
-  if (activeLanguge)
-  {
-    loadLanguageData(jsonURLs[activeLanguge]);
-  }
-  
+  loadLanguageData(jsonURLs[activeLanguge]);
+
   $scope.changeLanguage = function (langKey)
   {
     $translate.use(langKey);
