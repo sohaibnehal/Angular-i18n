@@ -11,34 +11,42 @@
       "org":"Calorie Cloud",
       "website":"www.caloriecloud.org",
       "about":"Calorie Cloud ist eine gemeinnützige Gesundheit Startup gewidmet Ende Hunger, indem sie Erwachsene und Kinder gesünder durch die Schaffung von Plattformen zu quantifizieren und zu monetarisieren körperliche Aktivität von Erwachsenen und Kindern für Ready-to-use Therapeutic Food (RUTF), die wichtigste Verteidigungslinie gegen Sever Acute Mangelernährung (SAM)."
+    },
+    {
+      "title":"Web-Anwendungsentwickler und Projektkoordinator",
+      "duration":"Sep 2012 - Nov 2014",
+      "org":"Panacloud Pvt. Ltd.",
+      "website":"www.panacloud.org",
+      "about":"Panacloud ist ein Dienstleistungs- und Produkt-basiertes Softwarehaus, das auf Multi-Plattform-Anwendungen für Web, Mobile und Wearable arbeitet."
     }
+
   ],
   "HEADER_2": "Projekte",
   "PROJECTS" : {
-    "UNICEF Kid Power": "Kid Power, a partnership with the U.S. Fund for UNICEF, educates and inspires American kids to get active and healthy, so malnourished kids worldwide can survive and thrive.",
-    "Workplace Wellness Challenge":"A platform to help you and your co-workers get active and healthy, while recycling the calories you collectively burn into live saving RUTF packets",
-    "MLP OpenPD (My Learning Plan - Open Professional Development)":"MLPOpenPD is the eLearning platform focused on maximizing educator effectiveness.",
-    "Presentation Next":"Presentation Next enables you to create lifelike, jaw dropping presentations, data visualizations and drawings that are identically viewable by Windows, iPad, Android, Linux, and Mac friends"
+    "UNICEF Kid Power": "Kid Power, eine Partnerschaft mit dem US-Fonds für UNICEF, erzieht und inspiriert amerikanische Kinder, um aktiv und gesund zu werden, so dass unterernährte Kinder weltweit überleben und gedeihen können.",
+    "Workplace Wellness Challenge":"Eine Plattform, die Ihnen und Ihren Mitarbeitern dabei hilft, aktiv und gesund zu werden, während Sie die Kalorien, die Sie gemeinsam in lebende RUTF-Pakete verbrennen, recyceln",
+    "MLP OpenPD (My Learning Plan - Open Professional Development)":"MLPOpenPD ist die eLearning-Plattform, die sich darauf konzentriert, die Effektivität der Erzieher zu maximieren.",
+    "Presentation Next":"Presentation Next ermöglicht es Ihnen, lebensechte Präsentationen, Datenvisualisierungen und Zeichnungen, die von Windows-, iPad-, Android-, Linux- und Mac-Freunden identisch sind, zu erstellen"
   },
   "HEADER_3": "Fähigkeiten",
   "SKILLS" : {
-    "Stack of speciality":"Node, Express, Angular, MongoDB/Postgres",
-    "Deployment platform":"Heroku",
-    "Projects management tools":"Pivotal Tracker, Asana, Assembla"
+    "Stapel von Spezialität":"Node, Express, Angular, MongoDB/Postgres",
+    "Bereitstellungsplattform":"Heroku",
+    "Projektmanagement-Werkzeuge":"Pivotal Tracker, Asana, Assembla"
   },
   "HEADER_4": "Ausbildung",
   "EDUCATION" : [
-    {"title":"MS in Computer Science and IT", "batch":"2014-2015", "university":"NED University of Engg. & Tech."},
-    {"title":"Bachelors in Computer Science and IT", "batch":"2009-2010", "university":"NED University of Engg. & Tech."}
+    {"title":"MS in Informatik und Informatik", "batch":"Batch 2014-2015", "university":"NED University of Engineering and Technology"},
+    {"title":"Bachelor in Informatik und Informatik", "batch":"Batch 2009-2010", "university":"NED University of Engineering and Technology"}
   ],
   "HEADER_5": "Zertifizierungen",
   "CERTIFICATIONS" : [
-    {"title":"Certification, Mobile and Cloud Computing", "batch":"2014-2015", "by":"Sir Syed University of Engg. & Tech."},
-    {"title":"Blasting Off with Bootstrap", "batch":"2009-2010", "by":"Code School"},
-    {"title":"Programming in HTML5 with Javascript and CSS3", "batch":"2014", "by":"Microsoft Exam 70-480 "}
+    {"title":"Zertifizierung, Mobile und Cloud Computing", "batch":"2014-2015", "by":"Sir Syed University of Engg. & Tech."},
+    {"title":"Strahlen mit Bootstrap", "batch":"2009-2010", "by":"Code School"},
+    {"title":"Programmierung in HTML5 mit Javascript und CSS3", "batch":"2014", "by":"Microsoft Exam 70-480 "}
   ],
   "HEADER_6": "Freiwilligenarbeit",
   "VOLUNTEER_WORK" : [
-    {"title":"Member 7th Youth Parliament Pakistan", "year":"2015", "org":"Pakistan Institute of Legislative Development and Transparency (PILDAT)"}
+    {"title":"Mitglied 7. Jugendparlament Pakistan", "year":"2015", "org":"Pakistan Institut für Gesetzgebung und Transparenz (PILDAT)"}
   ]
 }

@@ -45,32 +45,99 @@
 
     <div class="col col-md-9">
       <div class="jumbotron" style="text-align: left" ng-show="view.experience">
-        <h3>{{'HEADER_1' | translate}}</h3>
-        <div ng-repeat="obj in data.EXPERIENCE">
-          <h3>{{obj.title}}</h3>
-          <p>{{obj.duration}}</p>
-          <h4>{{obj.org}}&nbsp;({{obj.website}})</h4>
-          <p>{{obj.about}}</p>
+        <h3 style="color: #555;">{{'HEADER_1' | translate}}</h3>
+        <div ng-repeat="obj in data.EXPERIENCE" style="margin-bottom: 20px;">
+          <div class="title">
+            {{obj.title}}
+          </div>
+          <span class="duration">
+            {{obj.duration}}
+          </span>
+          <br><br>
+          <span class="company_details">
+            {{obj.org}}&nbsp;({{obj.website}})
+          </span>
+          <br><br>
+          <span class="desc_text">
+            {{obj.about}}
+          </span>
         </div>
-
-
-
-
       </div>
+
       <div class="jumbotron" style="text-align: left" ng-show="view.projects">
         <h3>{{'HEADER_2' | translate}}</h3>
+        <div ng-repeat="(key, value) in data.PROJECTS track by $index" style="margin-bottom: 20px;">
+          <div class="title">
+            {{key}}
+          </div>
+          <span class="desc_text">
+            {{value}}
+          </span>
+        </div>
       </div>
+
       <div class="jumbotron" style="text-align: left" ng-show="view.skills">
         <h3>{{'HEADER_3' | translate}}</h3>
+        <div ng-repeat="(key, value) in data.SKILLS track by $index" style="margin-bottom: 20px;">
+          <div class="title">
+            {{key}}
+          </div>
+          <span class="desc_text">
+            {{value}}
+          </span>
+        </div>
       </div>
+
+
       <div class="jumbotron" style="text-align: left" ng-show="view.education">
         <h3>{{'HEADER_4' | translate}}</h3>
+        <div ng-repeat="obj in data.EDUCATION" style="margin-bottom: 20px;">
+          <div class="title">
+            {{obj.title}}
+          </div>
+          <span class="duration">
+            {{obj.batch}}
+          </span>
+          <br><br>
+          <span class="company_details">
+            {{obj.university}}
+          </span>
+        </div>
       </div>
+
+
+
       <div class="jumbotron" style="text-align: left" ng-show="view.certifications">
         <h3>{{'HEADER_5' | translate}}</h3>
+
+        <div ng-repeat="obj in data.CERTIFICATIONS" style="margin-bottom: 20px;">
+          <div class="title">
+            {{obj.title}}
+          </div>
+          <span class="duration">
+            {{obj.batch}}
+          </span>
+          <br><br>
+          <span class="company_details">
+            {{obj.by}}
+          </span>
+        </div>
+
       </div>
       <div class="jumbotron" style="text-align: left" ng-show="view.volunteer_work">
         <h3>{{'HEADER_6' | translate}}</h3>
+        <div ng-repeat="obj in data.VOLUNTEER_WORK" style="margin-bottom: 20px;">
+          <div class="title">
+            {{obj.title}}
+          </div>
+          <span class="duration">
+            {{obj.year}}
+          </span>
+          <br><br>
+          <span class="company_details">
+            {{obj.org}}
+          </span>
+        </div>
       </div>
     </div>
   </div>

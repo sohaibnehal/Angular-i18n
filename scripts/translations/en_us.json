@@ -11,6 +11,13 @@
       "org":"Calorie Cloud",
       "website":"www.caloriecloud.org",
       "about":"Calorie Cloud is a nonprofit health startup dedicated to ending hunger by getting adults and kids healthier by creating platforms to quantify and monetize physical activity of adults and kids for Ready-to-use Therapeutic Food (RUTF), the main line of defense against Sever Acute Malnutrition (SAM)."
+    },
+    {
+      "title":"Web Application Developer and Project Coordinator",
+      "duration":"Sep 2012 - Nov 2014",
+      "org":"Panacloud Pvt. Ltd.",
+      "website":"www.panacloud.org",
+      "about":"Panacloud is a services and products based software house working on multi-platform applications for web, mobile and wearable."
     }
   ],
 "HEADER_2": "Projects",
@@ -28,8 +35,8 @@
   },
 "HEADER_4": "Education",
   "EDUCATION" : [
-    {"title":"MS in Computer Science and IT", "batch":"2014-2015", "university":"NED University of Engg. & Tech."},
-    {"title":"Bachelors in Computer Science and IT", "batch":"2009-2010", "university":"NED University of Engg. & Tech."}
+    {"title":"MS in Computer Science and IT", "batch":"Batch 2014-2015", "university":"NED University of Engineering and Technology"},
+    {"title":"Bachelors in Computer Science and IT", "batch":"Batch 2009-2010", "university":"NED University of Engineering and Technology"}
   ],
 "HEADER_5": "Certifications",
   "CERTIFICATIONS" : [
