@@ -1,48 +1,89 @@
 
-<h1>Form</h1>
-
-<form>
-  <label>{{'TITLE' | translate}}</label>
-  <br>
-  <label>{{'FIRST_NAME' | translate}}</label>
-  <br>
-  <label>{{'LAST_NAME' | translate}}</label>
-  <br>
-  <label>{{'EMAIL_ADDRESS' | translate}}</label>
-  <br>
-  <label>{{'PHONE_NUMBER' | translate}}</label>
-  <br>
-  <label>{{'GENDER' | translate}}</label>
-  <br>
-  <label>{{'DEVICE_ID' | translate}}</label>
-  <br>
-  <label>{{'PICTURE' | translate}}</label>
-  <br>
-  <label>{{'NAME' | translate}}</label>
-  <br>
-  <label>{{'ADDRESS_LINE_1' | translate}}</label>
-  <br>
-  <label>{{'ADDRESS_LINE_2' | translate}}</label>
-  <br>
-  <label>{{'ADDRESS_LINE_2' | translate}}</label>
-  <br>
-  <label>{{'CITY' | translate}}</label>
-  <br>
-  <label>{{'STATE' | translate}}</label>
-  <br>
-  <label>{{'POST_CODE' | translate}}</label>
-  <br>
-  <label>{{'ZIP_CODE' | translate}}</label>
-  <br>
+<div>
+  <div class="row" style="padding-top: 50px; padding-left: 20px; padding-right: 20px">
+    <h3>
+      {{'TITLE' | translate}}
+    </h3>
+  </div>
+  <div class="row" style="padding-left: 20px">
+    <div class="col col-md-4">
+      <p>{{'EMAIL' | translate}}</p>
+    </div>
+    <div class="col col-md-4">
+      <p>{{'MOBILE' | translate}}</p>
+    </div>
+    <div class="col col-md-4">
+      <p>{{'LINKED_IN' | translate}}</p>
+    </div>
+  </div>
 
 
+  <div class="row" style="margin-top: 30px">
+    <div class="col col-md-3">
+      <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" ng-class="{'active':view.experience}">
+          <a ng-click="view = {experience: true}">{{'HEADER_1' | translate}}</a>
+        </li>
+        <li role="presentation" ng-class="{'active':view.projects}">
+          <a ng-click="view = {projects: true}">{{'HEADER_2' | translate}}</a>
+        </li>
+        <li role="presentation" ng-class="{'active':view.skills}">
+          <a ng-click="view = {skills: true}">{{'HEADER_3' | translate}}
+          </a></li>
+        <li role="presentation" ng-class="{'active':view.education}">
+          <a ng-click="view = {education: true}">{{'HEADER_4' | translate}}
+          </a></li>
+        <li role="presentation" ng-class="{'active':view.certifications}">
+          <a ng-click="view = {certifications: true}">{{'HEADER_5' | translate}}</a>
+        </li>
+        <li role="presentation" ng-class="{'active':view.volunteer_work}">
+          <a ng-click="view = {volunteer_work: true}"> {{'HEADER_6' | translate}}</a>
+        </li>
+      </ul>
+    </div>
 
-</form>
+
+    <div class="col col-md-9">
+      <div class="jumbotron" style="text-align: left" ng-show="view.experience">
+        <h3>{{'HEADER_1' | translate}}</h3>
+        <div ng-repeat="obj in data.EXPERIENCE">
+          <h3>{{obj.title}}</h3>
+          <p>{{obj.duration}}</p>
+          <h4>{{obj.org}}&nbsp;({{obj.website}})</h4>
+          <p>{{obj.about}}</p>
+        </div>
 
 
 
-<button ng-click="changeLanguage('en')">English</button>
-<button ng-click="changeLanguage('de')">German</button>
+
+      </div>
+      <div class="jumbotron" style="text-align: left" ng-show="view.projects">
+        <h3>{{'HEADER_2' | translate}}</h3>
+      </div>
+      <div class="jumbotron" style="text-align: left" ng-show="view.skills">
+        <h3>{{'HEADER_3' | translate}}</h3>
+      </div>
+      <div class="jumbotron" style="text-align: left" ng-show="view.education">
+        <h3>{{'HEADER_4' | translate}}</h3>
+      </div>
+      <div class="jumbotron" style="text-align: left" ng-show="view.certifications">
+        <h3>{{'HEADER_5' | translate}}</h3>
+      </div>
+      <div class="jumbotron" style="text-align: left" ng-show="view.volunteer_work">
+        <h3>{{'HEADER_6' | translate}}</h3>
+      </div>
+    </div>
+  </div>
+
+
+  <div style="text-align: center">
+    <button class="btn btn-default" ng-click="changeLanguage('en')">English</button>
+    <button class="btn btn-default" ng-click="changeLanguage('de')">German</button>
+
+  </div>
+</div>
+
+
 
 
 

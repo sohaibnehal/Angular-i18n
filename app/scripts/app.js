@@ -50,6 +50,6 @@ app.config(['$translateProvider', function ($translateProvider) {
 
   $translateProvider.determinePreferredLanguage();
 
-  //$translateProvider.preferredLanguage('en');
+ // $translateProvider.preferredLanguage('en_us');
   $translateProvider.fallbackLanguage('en_us');
 }]);

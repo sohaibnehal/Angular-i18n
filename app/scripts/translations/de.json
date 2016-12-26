@@ -1,17 +1,44 @@
 {
-  "TITLE": "Titel",
-  "FIRST_NAME": "Voornaam",
-  "LAST_NAME": "Achternaam",
-  "EMAIL_ADDRESS": "E-mailadres",
-  "PHONE_NUMBER": "Telefoonnummer",
-  "GENDER": "Geslacht",
-  "DEVICE_ID": "Apparaat-ID",
-  "PICTURE": "Foto",
-  "NAME": "Naam",
-  "ADDRESS_LINE_1": "Adresregel 1",
-  "ADDRESS_LINE_2": "Adresregel 2",
-  "CITY": "Stad",
-  "STATE": "Provincie",
-  "POST_CODE": "Postcode",
-  "ZIP CODE": "Postcode"
+  "TITLE": "Sohaib Nehal",
+  "EMAIL": "sohaib.nehal@ymail.com",
+  "MOBILE": "+92-345-3192035",
+  "LINKED_IN": "http://pk.linkedin.com/in/sohaibnehal",
+  "HEADER_1": "Erfahrung",
+  "EXPERIENCE" : [
+    {
+      "title":"Web- und Plattformentwickler",
+      "duration":"Nov 2014 - Gegenwart",
+      "org":"Calorie Cloud",
+      "website":"www.caloriecloud.org",
+      "about":"Calorie Cloud ist eine gemeinnützige Gesundheit Startup gewidmet Ende Hunger, indem sie Erwachsene und Kinder gesünder durch die Schaffung von Plattformen zu quantifizieren und zu monetarisieren körperliche Aktivität von Erwachsenen und Kindern für Ready-to-use Therapeutic Food (RUTF), die wichtigste Verteidigungslinie gegen Sever Acute Mangelernährung (SAM)."
+    }
+  ],
+  "HEADER_2": "Projekte",
+  "PROJECTS" : {
+    "UNICEF Kid Power": "Kid Power, a partnership with the U.S. Fund for UNICEF, educates and inspires American kids to get active and healthy, so malnourished kids worldwide can survive and thrive.",
+    "Workplace Wellness Challenge":"A platform to help you and your co-workers get active and healthy, while recycling the calories you collectively burn into live saving RUTF packets",
+    "MLP OpenPD (My Learning Plan - Open Professional Development)":"MLPOpenPD is the eLearning platform focused on maximizing educator effectiveness.",
+    "Presentation Next":"Presentation Next enables you to create lifelike, jaw dropping presentations, data visualizations and drawings that are identically viewable by Windows, iPad, Android, Linux, and Mac friends"
+  },
+  "HEADER_3": "Fähigkeiten",
+  "SKILLS" : {
+    "Stack of speciality":"Node, Express, Angular, MongoDB/Postgres",
+    "Deployment platform":"Heroku",
+    "Projects management tools":"Pivotal Tracker, Asana, Assembla"
+  },
+  "HEADER_4": "Ausbildung",
+  "EDUCATION" : [
+    {"title":"MS in Computer Science and IT", "batch":"2014-2015", "university":"NED University of Engg. & Tech."},
+    {"title":"Bachelors in Computer Science and IT", "batch":"2009-2010", "university":"NED University of Engg. & Tech."}
+  ],
+  "HEADER_5": "Zertifizierungen",
+  "CERTIFICATIONS" : [
+    {"title":"Certification, Mobile and Cloud Computing", "batch":"2014-2015", "by":"Sir Syed University of Engg. & Tech."},
+    {"title":"Blasting Off with Bootstrap", "batch":"2009-2010", "by":"Code School"},
+    {"title":"Programming in HTML5 with Javascript and CSS3", "batch":"2014", "by":"Microsoft Exam 70-480 "}
+  ],
+  "HEADER_6": "Freiwilligenarbeit",
+  "VOLUNTEER_WORK" : [
+    {"title":"Member 7th Youth Parliament Pakistan", "year":"2015", "org":"Pakistan Institute of Legislative Development and Transparency (PILDAT)"}
+  ]
 }

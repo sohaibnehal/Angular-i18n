@@ -1,17 +1,44 @@
 {
-"TITLE": "Title",
-"FIRST_NAME": "First Name",
-"LAST_NAME": "Last Name",
-"EMAIL_ADDRESS": "Email Address",
-"PHONE_NUMBER": "Phone Number",
-"GENDER": "Gender",
-"DEVICE_ID": "Device ID",
-"PICTURE": "Picture",
-"NAME": "Name",
-"ADDRESS_LINE_1": "Address Line 1",
-"ADDRESS_LINE_2": "Address Line 2",
-"CITY": "City",
-"STATE": "State",
-"POST_CODE": "Post Code",
-"ZIP_CODE": "Zip Code"
+"TITLE": "Sohaib Nehal",
+"EMAIL": "sohaib.nehal@ymail.com",
+"MOBILE": "+92-345-3192035",
+"LINKED_IN": "http://pk.linkedin.com/in/sohaibnehal",
+"HEADER_1": "Experience",
+  "EXPERIENCE" : [
+    {
+      "title":"Web and Platform Developer",
+      "duration":"Nov 2014 - Present",
+      "org":"Calorie Cloud",
+      "website":"www.caloriecloud.org",
+      "about":"Calorie Cloud is a nonprofit health startup dedicated to ending hunger by getting adults and kids healthier by creating platforms to quantify and monetize physical activity of adults and kids for Ready-to-use Therapeutic Food (RUTF), the main line of defense against Sever Acute Malnutrition (SAM)."
+    }
+  ],
+"HEADER_2": "Projects",
+  "PROJECTS" : {
+    "UNICEF Kid Power": "Kid Power, a partnership with the U.S. Fund for UNICEF, educates and inspires American kids to get active and healthy, so malnourished kids worldwide can survive and thrive.",
+    "Workplace Wellness Challenge":"A platform to help you and your co-workers get active and healthy, while recycling the calories you collectively burn into live saving RUTF packets",
+    "MLP OpenPD (My Learning Plan - Open Professional Development)":"MLPOpenPD is the eLearning platform focused on maximizing educator effectiveness.",
+    "Presentation Next":"Presentation Next enables you to create lifelike, jaw dropping presentations, data visualizations and drawings that are identically viewable by Windows, iPad, Android, Linux, and Mac friends"
+  },
+"HEADER_3": "Skills",
+  "SKILLS" : {
+    "Stack of speciality":"Node, Express, Angular, MongoDB/Postgres",
+    "Deployment platform":"Heroku",
+    "Projects management tools":"Pivotal Tracker, Asana, Assembla"
+  },
+"HEADER_4": "Education",
+  "EDUCATION" : [
+    {"title":"MS in Computer Science and IT", "batch":"2014-2015", "university":"NED University of Engg. & Tech."},
+    {"title":"Bachelors in Computer Science and IT", "batch":"2009-2010", "university":"NED University of Engg. & Tech."}
+  ],
+"HEADER_5": "Certifications",
+  "CERTIFICATIONS" : [
+    {"title":"Certification, Mobile and Cloud Computing", "batch":"2014-2015", "by":"Sir Syed University of Engg. & Tech."},
+    {"title":"Blasting Off with Bootstrap", "batch":"2009-2010", "by":"Code School"},
+    {"title":"Programming in HTML5 with Javascript and CSS3", "batch":"2014", "by":"Microsoft Exam 70-480 "}
+  ],
+"HEADER_6": "Volunteer Work",
+  "VOLUNTEER_WORK" : [
+    {"title":"Member 7th Youth Parliament Pakistan", "year":"2015", "org":"Pakistan Institute of Legislative Development and Transparency (PILDAT)"}
+  ]
 }
