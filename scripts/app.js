@@ -50,5 +50,5 @@ app.config(['$translateProvider', function ($translateProvider) {
 
   $translateProvider.fallbackLanguage('en_us');
 
-  $translateProvider.useSanitizeValueStrategy('escape');
+//  $translateProvider.useSanitizeValueStrategy('escape');
 }]);
