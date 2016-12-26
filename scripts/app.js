@@ -33,8 +33,6 @@ var app = angular
 
 app.config(['$translateProvider', function ($translateProvider) {
 
-
-
   $translateProvider.useStaticFilesLoader({
     prefix: 'scripts/translations/',
     suffix: '.json'
@@ -50,6 +48,7 @@ app.config(['$translateProvider', function ($translateProvider) {
 
   $translateProvider.determinePreferredLanguage();
 
- // $translateProvider.preferredLanguage('en_us');
-  $translateProvider.fallbackLanguage('en_us');
+  $translateProvider.fallbackLanguage('en_US');
+
+  $translateProvider.useSanitizeValueStrategy('escape');
 }]);

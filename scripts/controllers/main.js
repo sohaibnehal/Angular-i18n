@@ -24,9 +24,11 @@ app.controller('MainCtrl', function ($scope, $translate, $http) {
   };
 
   activeLanguge = $translate.use() || $translate.preferredLanguage();
-  loadLanguageData(jsonURLs[activeLanguge]);
-
-
+  if (activeLanguge)
+  {
+    loadLanguageData(jsonURLs[activeLanguge]);
+  }
+  
   $scope.changeLanguage = function (langKey)
   {
     $translate.use(langKey);
@@ -35,13 +37,20 @@ app.controller('MainCtrl', function ($scope, $translate, $http) {
 
   function loadLanguageData(url)
   {
-    $http.get(url, {
+    $http({
+      method: 'GET',
+      url: url,
       headers: {
         'Content-type': 'application/json'
       }
-    }).success(function (events)
-    {
-      $scope.data = events;
+    }).then(function successCallback(response) {
+      // this callback will be called asynchronously
+      $scope.data = response.data;
+      // when the response is available
+    }, function errorCallback(response) {
+      // called asynchronously if an error occurs
+      console.log(response);
+      // or server returns response with an error status.
     });
 
   }
