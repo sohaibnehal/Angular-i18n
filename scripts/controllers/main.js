@@ -34,13 +34,17 @@ app.controller('MainCtrl', function ($scope, $translate, API) {
 
   function loadLanguageData(url)
   {
-    API.loadLanguage(url).then(function (data) {
-        $scope.data = data;
-      },
-      function (err) {
-        console.log(err);
-      }
-    );
+    if (url)
+    {
+      API.loadLanguage(url).then(function (data) {
+          $scope.data = data;
+        },
+        function (err) {
+          console.log(err);
+        }
+      );
+    }
+
   }
 
   });
