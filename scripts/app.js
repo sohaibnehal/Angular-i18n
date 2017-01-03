@@ -48,7 +48,7 @@ app.config(['$translateProvider', function ($translateProvider) {
 
 
   $translateProvider.determinePreferredLanguage();
-  $translateProvider.fallbackLanguage('en_Us');
+  $translateProvider.fallbackLanguage('en_us');
   $translateProvider.useSanitizeValueStrategy(null);
 
 
