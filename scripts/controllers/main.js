@@ -41,7 +41,6 @@ app.controller('MainCtrl', function ($scope, $translate, $timeout, API) {
         $timeout(function(){
           $scope.data = data;
         });
-
         },
         function (err) {
           console.log(err);
