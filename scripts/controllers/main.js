@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the appApp
  */
-app.controller('MainCtrl', function ($scope, $translate, $http) {
+app.controller('MainCtrl', function ($scope, $translate, API) {
 
 
   $scope.view = { 'experience' : true };
@@ -34,22 +34,13 @@ app.controller('MainCtrl', function ($scope, $translate, $http) {
 
   function loadLanguageData(url)
   {
-    $http({
-      method: 'GET',
-      url: url,
-      headers: {
-        'Content-type': 'application/json'
+    API.loadLanguage(url).then(function (data) {
+        $scope.data = data;
+      },
+      function (err) {
+        console.log(err);
       }
-    }).then(function successCallback(response) {
-      // this callback will be called asynchronously
-      $scope.data = response.data;
-      // when the response is available
-    }, function errorCallback(response) {
-      // called asynchronously if an error occurs
-      console.log(response);
-      // or server returns response with an error status.
-    });
-
+    );
   }
 
   });
