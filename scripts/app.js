@@ -38,8 +38,8 @@ app.config(['$translateProvider', function ($translateProvider) {
     suffix: '.json'
   });
 
-  $translateProvider.registerAvailableLanguageKeys(['en_US', 'en_uk', 'de'], {
-    'en_us':'en_US',
+  $translateProvider.registerAvailableLanguageKeys(['en_us', 'en_uk', 'de'], {
+    'en_US':'en_us',
     'en':'en_us',
     'en_UK': 'en_uk',
     'de_DE': 'de',
@@ -48,7 +48,7 @@ app.config(['$translateProvider', function ($translateProvider) {
 
 
   $translateProvider.determinePreferredLanguage();
-  $translateProvider.fallbackLanguage('en_US');
+  $translateProvider.fallbackLanguage('en_Us');
   $translateProvider.useSanitizeValueStrategy(null);
 
 

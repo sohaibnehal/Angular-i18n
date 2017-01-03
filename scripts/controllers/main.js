@@ -15,8 +15,9 @@ app.controller('MainCtrl', function ($scope, $translate, $timeout, API) {
 
   var jsonURLs, activeLanguge;
   jsonURLs = {
-    'en_US':'scripts/translations/en_US.json',
-    'en':'scripts/translations/en_US.json',
+    'en_us':'scripts/translations/en_us.json',
+    'en_US':'scripts/translations/en_us.json',
+    'en':'scripts/translations/en_us.json',
     'en_UK':'scripts/translations/en_uk.json',
     'de':'scripts/translations/de.json',
     'de_DE':'scripts/translations/de.json',
