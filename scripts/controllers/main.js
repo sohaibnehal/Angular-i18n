@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the appApp
  */
-app.controller('MainCtrl', function ($scope, $translate, API) {
+app.controller('MainCtrl', function ($scope, $translate, $timeout, API) {
 
 
   $scope.view = { 'experience' : true };
@@ -36,8 +36,13 @@ app.controller('MainCtrl', function ($scope, $translate, API) {
   {
     if (url)
     {
-      API.loadLanguage(url).then(function (data) {
+      API.loadLanguage(url).then(function (data)
+      {
+        $timeout(function() {
+          // anything you want can go here and will safely be run on the next digest.
           $scope.data = data;
+        });
+
         },
         function (err) {
           console.log(err);

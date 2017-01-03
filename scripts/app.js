@@ -39,7 +39,7 @@ app.config(['$translateProvider', function ($translateProvider) {
   });
 
   $translateProvider.registerAvailableLanguageKeys(['en_US', 'en_uk', 'de'], {
-    'en_US': 'en_us',
+    'en_us':'en_US',
     'en':'en_us',
     'en_UK': 'en_uk',
     'de_DE': 'de',
@@ -48,7 +48,7 @@ app.config(['$translateProvider', function ($translateProvider) {
 
 
   $translateProvider.determinePreferredLanguage();
-  $translateProvider.fallbackLanguage('en_us');
+  $translateProvider.fallbackLanguage('en_US');
   $translateProvider.useSanitizeValueStrategy(null);
 
 
