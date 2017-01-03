@@ -46,8 +46,9 @@ app.config(['$translateProvider', function ($translateProvider) {
     'de_CH': 'de'
   });
 
-  $translateProvider.fallbackLanguage('en_us');
+
   $translateProvider.determinePreferredLanguage();
+  $translateProvider.fallbackLanguage('en_us');
 
 
 
