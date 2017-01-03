@@ -15,8 +15,8 @@ app.controller('MainCtrl', function ($scope, $translate, $timeout, API) {
 
   var jsonURLs, activeLanguge;
   jsonURLs = {
-    'en_US':'scripts/translations/en_us.json',
-    'en':'scripts/translations/en_us.json',
+    'en_US':'scripts/translations/en_US.json',
+    'en':'scripts/translations/en_US.json',
     'en_UK':'scripts/translations/en_uk.json',
     'de':'scripts/translations/de.json',
     'de_DE':'scripts/translations/de.json',
@@ -38,8 +38,7 @@ app.controller('MainCtrl', function ($scope, $translate, $timeout, API) {
     {
       API.loadLanguage(url).then(function (data)
       {
-        $timeout(function() {
-          // anything you want can go here and will safely be run on the next digest.
+        $timeout(function(){
           $scope.data = data;
         });
 
